@@ -92,7 +92,7 @@ namespace BestCafe
     class Program
     {
         public static void printCoffeeInfo(ICoffee c){
-            Console.WriteLine("Current Coffe: " + c.getCost() + ". Ingredients: " + c.getIngredients());
+            Console.WriteLine("Current Coffee: " + c.getCost() + ". Ingredients: " + c.getIngredients());
         }
 
         static void Main(string[] args)

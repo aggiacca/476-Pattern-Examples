@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory- Documents", "Facto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder - Car", "Builder - Car\Builder - Car.csproj", "{2F946AD1-F652-474B-A083-270506999B31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter - Legacy Chemical Databank", "Adapter - Legacy Chemical Databank\Adapter - Legacy Chemical Databank.csproj", "{7ADC3A11-243A-4090-A219-BAF429DA3686}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2F946AD1-F652-474B-A083-270506999B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F946AD1-F652-474B-A083-270506999B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F946AD1-F652-474B-A083-270506999B31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ADC3A11-243A-4090-A219-BAF429DA3686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ADC3A11-243A-4090-A219-BAF429DA3686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ADC3A11-243A-4090-A219-BAF429DA3686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ADC3A11-243A-4090-A219-BAF429DA3686}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

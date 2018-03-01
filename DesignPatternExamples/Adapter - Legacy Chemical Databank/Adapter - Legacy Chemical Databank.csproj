@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>d1064ee8-f61b-4917-aeda-ad68b221206d</ProjectGuid>
+    <ProjectGuid>{7ADC3A11-243A-4090-A219-BAF429DA3686}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Adapter___Legacy_Chemical_Databank</RootNamespace>
-    <AssemblyName>Adapter___Legacy_Chemical_Databank</AssemblyName>
+    <AssemblyName>Adapter - Legacy Chemical Databank</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
