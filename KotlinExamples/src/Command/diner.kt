@@ -14,6 +14,7 @@ fun main(args: Array<String>) {
 }
 
 abstract class Command_order {
+    // could be interface for receiver
     protected var Receiver_Cook: Receiver_Cook? = null
     abstract fun Execute_Orderup()
 }
@@ -29,8 +30,7 @@ class ConcreteCommand_order(receiver_Cook: Receiver_Cook) : Command_order()
         Receiver_Cook?.MakeShake()
     }
 }
-
-internal class invoker_Waitress {
+ class invoker_Waitress {
     private var command_order: Command_order? = null
     fun SetCommand_TakeOrder(command_order: Command_order) {
         this.command_order = command_order
